@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./build/dialog.js" defer></script>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+  <script
+  src="https://kit.fontawesome.com/87e8d924e6.js"
+  crossorigin="anonymous"
+></script>
+  <title>Motion</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="header_title">MOTION</h1>
+      <ul class="header_menu">
+        <li><button data-name="url" class="menuBtn">IMAGE</button></li>
+        <li><button data-name="url" class="menuBtn">VIDEO</button></li>
+        <li><button data-name="body" class="menuBtn">NOTE</button></li>
+        <li><button data-name="body" class="menuBtn">TASK</button></li>
+      </ul>
+    </header>
+    <section class="content">
+      <ul class="items ">
+        <li class="item">
+          <div class="thumbnail">
+            <img src="#">
+          </div>
+          <div class="text">Image</div>
+          <div class="button">
+            <button class="closeBtn"><i class="fas fa-times"></i></button>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <div class="dialog_bg">
+    <div class="dialog">
+      <div class="button">
+        <button id="dialogCloseBtn" class="closeBtn"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="inputs">
+        <label for="input1">Title</label>
+        <input id="input1" type="text">
+        <label for="input2"></label>
+        <input id="input2" type="text">
+      </div>
+      <div class="button">
+        <button class="addBtn">ADD</button>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
