@@ -41,11 +41,11 @@ headerMenu?.addEventListener('click', (e) => {
   }
 })
 
-dialogBg?.addEventListener('click', (e) => {
-  const target = e.target as HTMLInputElement;
-  // console.log(target)
-  console.log(target?.labels[0].innerText)
-})
+// dialogBg?.addEventListener('click', (e) => {
+//   //const target = e.target as HTMLInputElement;
+//   // console.log(target)
+//   //console.log(target?.labels[0].innerText)
+// })
 
 dialogCloseBtn?.addEventListener('click', () => {
   dialogBox.close();
